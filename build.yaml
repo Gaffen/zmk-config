@@ -13,4 +13,4 @@
 #
 ---
 include:
-  - board: bt75v1_iso
+  - board: bt60_v1
