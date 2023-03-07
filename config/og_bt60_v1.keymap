@@ -8,7 +8,9 @@
 //#define ALL_1U true
 //#define SPLIT_BKSP_RSHFT true
 
-
+&kscan0 {
+    debounce-period = <15>;
+};
 
 / {
 	chosen {
