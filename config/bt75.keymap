@@ -44,7 +44,7 @@
 				// |BT_PRV| BT_NXT | LGUI |            EP_TOG              |RGUI|mo 1|RCTRL|LEFT|DOWN|BL_DEC|
 				// ------------------------------------------------------------------------------------------
         bindings = <
-        &tog 2 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &out OUT_TOG &bt BT_CLR &reset 
+        &tog 2 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &out OUT_TOG &bt BT_CLR &sys_reset 
         &kp ESC &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans &trans &trans &bl BL_TOG &rgb_ug RGB_TOG 
         &trans &trans &kp UP &trans &trans &trans &trans &trans &kp INS &trans &kp PSCRN &kp SLCK &kp PAUSE_BREAK &rgb_ug RGB_HUI 
         &trans &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME &kp PG_UP &kp HASH &bootloader &rgb_ug RGB_HUD 
