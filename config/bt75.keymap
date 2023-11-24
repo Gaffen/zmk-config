@@ -19,12 +19,12 @@
       unix {
         // ------------------------------------------------------------------------------------------
         // | ESC |  🌚 |  🌝 | F3  |  F4 |  F5 |  F6 |  ⏪️ |  ⏯️ | ⏩️ | 🔇 | 🔉 | 🔊 |PSCRN|INS|DEL|
-				// |GRAVE|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  = | BKSP |PGUP|
-				// | TAB |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |     |PGDN|
-				// |  CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L | ; | ' |NUHS(\)|ENTER|HOME|
-				// |LSHIFT|NUBS(§)|  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | / |RSHFT| UP | END|
-				// | LCTL | LALT | LGUI |            SPACE              | RGUI | mo 1 |RCTRL|LEFT|DOWN|RIGHT|
-				// ------------------------------------------------------------------------------------------
+        // |GRAVE|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  = | BKSP |PGUP|
+        // | TAB |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |     |PGDN|
+        // |  CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L | ; | ' |NUHS(\)|ENTER|HOME|
+        // |LSHIFT|NUBS(§)|  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | / |RSHFT| UP | END|
+        // | LCTL | LALT | LGUI |            SPACE              | RGUI | mo 1 |RCTRL|LEFT|DOWN|RIGHT|
+        // ------------------------------------------------------------------------------------------
         bindings = <
           &kp ESC &kp C_BRI_DN &kp C_BRI_UP &kp F3 &kp F4 &kp F5 &kp F6 &kp C_PREV &kp C_PP &kp C_NEXT &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp PSCRN &kp INS &kp DEL 
           &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp BSPC &kp PG_UP 
@@ -37,12 +37,12 @@
       raise {
         // ------------------------------------------------------------------------------------------
         // |&tog2| F1  | F2  | F3  | F4  | F5  | F6  | F7 | F8 | F9|F10|F11|F12|OUT_TOG|BT_CLR|RESET|
-				// |ESC| BT 0 | BT 1 | BT 2 | BT 3 | BT 4 |  6  |  7  |  8  |  9 | 0 | - | = |BL_TOG|RGB_TOG|
-				// | TAB |  Q  | UP  |  E  |  R | T | Y | U | INS | O |PSCRN| SLCK|PAUSE_BREAK|     |RGB_HUI|
-				// |  CAPS  |LEFT |DOWN |RIGHT|  F  |  G  |  H  |  J  | K | L |HOME|PG_UP|HASH|BOOTL|RGB_HUD|
-				// | ⏪ |🔉|  🔊  |  🔇  |  C  |  V  |  B  |  N  |  M  |  ,  | END |PG_DN|⏩️ | UP | BL_INC |
-				// |BT_PRV| BT_NXT | LGUI |            EP_TOG              |RGUI|mo 1|RCTRL|LEFT|DOWN|BL_DEC|
-				// ------------------------------------------------------------------------------------------
+        // |ESC| BT 0 | BT 1 | BT 2 | BT 3 | BT 4 |  6  |  7  |  8  |  9 | 0 | - | = |BL_TOG|RGB_TOG|
+        // | TAB |  Q  | UP  |  E  |  R | T | Y | U | INS | O |PSCRN| SLCK|PAUSE_BREAK|     |RGB_HUI|
+        // |  CAPS  |LEFT |DOWN |RIGHT|  F  |  G  |  H  |  J  | K | L |HOME|PG_UP|HASH|BOOTL|RGB_HUD|
+        // | ⏪ |🔉|  🔊  |  🔇  |  C  |  V  |  B  |  N  |  M  |  ,  | END |PG_DN|⏩️ | UP | BL_INC |
+        // |BT_PRV| BT_NXT | LGUI |            EP_TOG              |RGUI|mo 1|RCTRL|LEFT|DOWN|BL_DEC|
+        // ------------------------------------------------------------------------------------------
         bindings = <
         &tog 2 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &out OUT_TOG &bt BT_CLR &sys_reset 
         &kp ESC &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans &trans &trans &bl BL_TOG &rgb_ug RGB_TOG 
@@ -55,12 +55,12 @@
       win {
         // ------------------------------------------------------------------------------------------
         // | ESC | F1  | F2  | F3  | F4  | F5  | F6  | F7 | F8 | F9 | F10 | F11 | F12 |PSCRN|INS|DEL|
-				// |GRAVE|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  = | BKSP |PGUP|
-				// | TAB |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |     |PGDN|
-				// |  CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L | ; | ' |NUHS(\)|ENTER|HOME|
-				// |LSHIFT|NUBS(§)|  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | / |RSHFT| UP | END|
-				// | LCTL | LALT | LWIN |            SPACE              | RWIN | mo 1 |RCTRL|LEFT|DOWN|RIGHT|
-				// ------------------------------------------------------------------------------------------
+        // |GRAVE|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  = | BKSP |PGUP|
+        // | TAB |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |     |PGDN|
+        // |  CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L | ; | ' |NUHS(\)|ENTER|HOME|
+        // |LSHIFT|NUBS(§)|  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | / |RSHFT| UP | END|
+        // | LCTL | LALT | LWIN |            SPACE              | RWIN | mo 1 |RCTRL|LEFT|DOWN|RIGHT|
+        // ------------------------------------------------------------------------------------------
         bindings = <
         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 

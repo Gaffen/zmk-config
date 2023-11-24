@@ -3,7 +3,7 @@
   "pw-kbid": "bt75v1_iso",
   "keymap": "default",
   "layout": "LAYOUT",
-  "layer_names": ["unix     ", "raise", "win"],
+  "layer_names": ["unix", "raise", "win"],
   "layers": [
     [
       "&kp ESC",
