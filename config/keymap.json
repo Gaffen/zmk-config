@@ -3,11 +3,7 @@
   "pw-kbid": "bt75v1_iso",
   "keymap": "default",
   "layout": "LAYOUT",
-  "layer_names": [
-    "unix     ",
-    "raise",
-    "win"
-  ],
+  "layer_names": ["unix     ", "raise", "win"],
   "layers": [
     [
       "&kp ESC",
@@ -112,7 +108,7 @@
       "&kp F12",
       "&out OUT_TOG",
       "&bt BT_CLR",
-      "&reset",
+      "&sys_reset",
       "&kp ESC",
       "&bt BT_SEL 0",
       "&bt BT_SEL 1",
